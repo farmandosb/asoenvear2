@@ -23,6 +23,10 @@ a img{
   border: 0px;
 }
 
+.form-image{
+  height: 20px;
+}
+
 ::-moz-selection {
   background-color: #FFD740;
   color: #fff;
@@ -80,6 +84,17 @@ a img{
     background: transparent;
     color: #767777;
   }
+
+  .mdl-mega-footer--social-btn {
+    background: transparent;
+    color: #767777;
+  }
+  .mdl-mega-footer--social-btn img{
+    background: transparent;
+    color: #767777;
+    height: 30px;
+  }
+
 
   .header .mdl-navigation__link {
     color: #757575;
@@ -175,7 +190,7 @@ a img{
   height: 800px;
   width: auto;
   background-color: #f3f3f3;
-  background: url('images/img07.jpg') center 30% no-repeat;
+  background: url('images/img10.jpg') center 30% no-repeat;
   background-size: cover;
 }
 
@@ -197,7 +212,7 @@ a img{
 }
 
 .create-character {
-  font-size: 21px;
+  font-size: 35px;
   padding-top: 400px;
 }
 
@@ -434,7 +449,7 @@ a img{
 }
 
   .footer a:hover {
-    color: #8bc34a;
+    color: #555555;
   }
 
   .footer .mdl-mega-footer--top-section::after {
