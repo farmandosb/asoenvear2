@@ -1,0 +1,204 @@
+<!doctype html>
+<!--
+  Material Design Lite
+  Copyright 2015 Google Inc. All rights reserved.
+
+  Licensed under the Apache License, Version 2.0 (the "License");
+  you may not use this file except in compliance with the License.
+  You may obtain a copy of the License at
+
+      https://www.apache.org/licenses/LICENSE-2.0
+
+  Unless required by applicable law or agreed to in writing, software
+  distributed under the License is distributed on an "AS IS" BASIS,
+  WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+  See the License for the specific language governing permissions and
+  limitations under the License
+-->
+
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="description" content="Asoenvear Web Page">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Asoenvear</title>
+
+  <!-- Page styles -->
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:regular,bold,italic,thin,light,bolditalic,black,medium&amp;lang=en">
+  <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+  <link rel="stylesheet" href="https://code.getmdl.io/1.3.0/material.yellow-amber.min.css" />
+  <link rel="stylesheet" href="styles.css">
+  <style>
+    #view-source {
+      position: fixed;
+      display: block;
+      right: 0;
+      bottom: 0;
+      margin-right: 40px;
+      margin-bottom: 40px;
+      z-index: 900;
+    }
+  </style>
+</head>
+
+<body>
+  <div class="mdl-layout mdl-js-layout mdl-layout--fixed-header">
+
+    <div class="header mdl-layout__header mdl-layout__header--waterfall">
+      <div class="mdl-layout__header-row">
+        <span class="title mdl-layout-title">
+          <img class="logo-image" src="images/logo1.png">
+        </span>
+        <!-- Add spacer, to align navigation to the right in desktop -->
+        <div class="header-spacer mdl-layout-spacer"></div>
+        <!--div class="search-box mdl-textfield mdl-js-textfield mdl-textfield--expandable mdl-textfield--floating-label mdl-textfield--align-right mdl-textfield--full-width">
+            <label class="mdl-button mdl-js-button mdl-button--icon" for="search-field">
+              <i class="material-icons">Buscar</i>
+            </label>
+            <div class="mdl-textfield__expandable-holder">
+              <input class="mdl-textfield__input" type="text" id="search-field">
+            </div>
+          </div-->
+        <!-- Navigation -->
+        <div class="navigation-container">
+          <nav class="navigation mdl-navigation">
+            <a class="mdl-navigation__link mdl-typography--text-uppercase" href="https://farmandosb.github.io/asoenvear2/">Home</a>
+            <a class="mdl-navigation__link mdl-typography--text-uppercase" href="">Equipo</a>
+            <a class="mdl-navigation__link mdl-typography--text-uppercase" href="https://farmandosb.github.io/form.html/">Censo</a>
+            <a class="mdl-navigation__link mdl-typography--text-uppercase" href="">Estadisticas</a>
+            <a class="mdl-navigation__link mdl-typography--text-uppercase" href="">Promociones</a>
+            <a class="mdl-navigation__link mdl-typography--text-uppercase" href="">Aliados</a>
+
+          </nav>
+        </div>
+        <span class="mobile-title mdl-layout-title">
+          <img class="logo-image" src="images/logo.png">
+        </span>
+        <button class="more-button mdl-button mdl-js-button mdl-button--icon mdl-js-ripple-effect" id="more-button">
+          <i class="material-icons">more_vert</i>
+        </button>
+        <ul class="mdl-menu mdl-js-menu mdl-menu--bottom-right mdl-js-ripple-effect" for="more-button">
+          <li class="mdl-menu__item">Censo</li>
+          <li class="mdl-menu__item">Convalidación</li>
+          <li disabled class="mdl-menu__item">Aliados</li>
+          <li class="mdl-menu__item">Contacto</li>
+        </ul>
+      </div>
+    </div>
+
+    <div class="form-section" style="padding-top: 0px;">
+      <div class="wear-band">
+        <div class="wear-band-text">
+          <div class="mdl-typography--display-1 mdl-typography--font-thin">Registro</div>
+        </div>
+      </div>
+    </div>
+    <!-- Simple Textfield -->
+
+    <form action="#">
+      <div class="mdl-grid">
+
+        <div class="mdl-cell mdl-cell--3-col">
+          <div class="mdl-textfield mdl-js-textfield mdl-textfield--floating-label">
+            <input class="mdl-textfield__input" type="text" id="sample1">
+            <label class="mdl-textfield__label" for="sample1">Primer Nombre</label>
+          </div>
+        </div>
+        <div class="mdl-cell mdl-cell--3-col">
+          <div class="mdl-textfield mdl-js-textfield mdl-textfield--floating-label">
+            <input class="mdl-textfield__input" type="text" id="sample1">
+            <label class="mdl-textfield__label" for="sample1">Segundo Nombre</label>
+          </div>
+        </div>
+        <div class="mdl-cell mdl-cell--3-col">
+          <div class="mdl-textfield mdl-js-textfield mdl-textfield--floating-label">
+            <input class="mdl-textfield__input" type="text" id="sample1">
+            <label class="mdl-textfield__label" for="sample1">Primer Apellido</label>
+          </div>
+        </div>
+        <div class="mdl-cell mdl-cell--3-col">
+          <div class="mdl-textfield mdl-js-textfield mdl-textfield--floating-label">
+            <input class="mdl-textfield__input" type="text" id="sample1">
+            <label class="mdl-textfield__label" for="sample1">Segundo Apellido</label>
+          </div>
+        </div>
+        <!-- Numeric Textfield -->
+        <div class="mdl-cell mdl-cell--6-col">
+          <div class="mdl-textfield mdl-js-textfield mdl-textfield--floating-label">
+            <input class="mdl-textfield__input" type="text" pattern="-?[0-9]*(\.[0-9]+)?" id="sample2">
+            <label class="mdl-textfield__label" for="sample2">Number...</label>
+            <span class="mdl-textfield__error">Input is not a number!</span>
+          </div>
+        </div>
+          </div>
+      </form>
+
+
+
+
+    <footer class="footer mdl-mega-footer">
+      <div class="mdl-mega-footer--top-section">
+        <div class="mdl-mega-footer--left-section">
+          <a href="https://www.instagram.com/asoenvear/"><button id="inst1" href="https://www.instagram.com/asoenvear/" class="mdl-mega-footer--social-btn mdl-button mdl-js-button mdl-js-ripple-effect" href""><img src="images/inst1.png"></button></a>
+          <span class="mdl-tooltip mdl-tooltip--large" for="inst1">Instagram</span>
+          <a href="https://www.facebook.com/groups/ASOENVEAR/"><button id="face1" class="mdl-mega-footer--social-btn mdl-button mdl-js-button mdl-js-ripple-effect" href""><img src="images/facebook1.png"></button></a>
+          <span class="mdl-tooltip mdl-tooltip--large" for="face1">Facebook</span>
+          <button id="wass1" class="mdl-mega-footer--social-btn mdl-button mdl-js-button mdl-js-ripple-effect" href""><img src="images/whassap1.png"></button>
+          <span class="mdl-tooltip mdl-tooltip--large" for="wass1">+5491123730134</span>
+          <a href="https://www.youtube.com/channel/UCTWm2Ti7xGh8X4Qg36b7Uew"><button id="you1" class="mdl-mega-footer--social-btn mdl-button mdl-js-button mdl-js-ripple-effect" href""><img src="images/youtube1.png"></button></a>
+          <span class="mdl-tooltip mdl-tooltip--large" for="you1">Youtube</span>
+          <button id="mail1" href="" class="mdl-mega-footer--social-btn mdl-button mdl-js-button mdl-js-ripple-effect" href""><img src="images/mail1.png"></button>
+          <span class="mdl-tooltip mdl-tooltip--large" for="mail1">directiva@asoenvear.org</span>
+          <a href="https://www.linkedin.com/in/asoenvear-red-enfermería-55b458179"><button id="link1" class="mdl-mega-footer--social-btn mdl-button mdl-js-button mdl-js-ripple-effect" href""><img src="images/link1.png"></button></a>
+          <span class="mdl-tooltip mdl-tooltip--large" for="link1">Linkedin</span>
+        </div>
+        <div class="mdl-mega-footer--right-section">
+          <a class="mdl-typography--font-light" href="#top">
+            Regresa al inicio
+            <i class="material-icons">expand_less</i>
+          </a>
+        </div>
+      </div>
+
+      <div class="mdl-mega-footer--middle-section">
+        <p class="mdl-typography--font-light">creado y mantenido por: @farmandosb</p>
+        <p class="mdl-typography--font-light">v0.1.1 En construcción</p>
+      </div>
+
+      <div class="mdl-mega-footer--bottom-section">
+        <a class="link link-menu mdl-typography--font-light" id="version-dropdown">
+          Versions
+          <i class="material-icons">arrow_drop_up</i>
+        </a>
+        <ul class="mdl-menu mdl-js-menu mdl-menu--top-left mdl-js-ripple-effect" for="version-dropdown">
+          <li class="mdl-menu__item">Instagram</li>
+          <li class="mdl-menu__item">Twitter</li>
+          <li class="mdl-menu__item">Facebook</li>
+          <li class="mdl-menu__item">Telegram</li>
+        </ul>
+        <a class="link link-menu mdl-typography--font-light" id="developers-dropdown">
+          Enfermeros en Argentina
+          <i class="material-icons">arrow_drop_up</i>
+        </a>
+        <ul class="mdl-menu mdl-js-menu mdl-menu--top-left mdl-js-ripple-effect" for="developers-dropdown">
+          <li class="mdl-menu__item">Oportunidades</li>
+          <li class="mdl-menu__item">Trabaja con nosotros</li>
+          <li class="mdl-menu__item">Capacitaciones</li>
+          <li class="mdl-menu__item">Charlas</li>
+        </ul>
+        <a class="link mdl-typography--font-light" href="">Blog</a>
+        <a class="link mdl-typography--font-light" href="">Política de privacidad</a>
+      </div>
+
+    </footer>
+  </div>
+  </div>
+  <a href="https://github.com/google/material-design-lite/blob/mdl-1.x/templates/dot-com/" target="_blank" id="view-source"
+    class="mdl-button mdl-js-button mdl-button--raised mdl-js-ripple-effect mdl-color--accent mdl-color-text--accent-contrast">View Source</a>
+  <script src="https://code.getmdl.io/1.3.0/material.min.js"></script>
+
+</body>
+
+</html>

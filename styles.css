@@ -322,6 +322,11 @@ a img{
   height: 800px;
 }
 
+.form-section {
+  position: relative;
+  height: 800px;
+}
+
 .wear-band {
   position: absolute;
   bottom: 0;
