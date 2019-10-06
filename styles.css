@@ -122,7 +122,7 @@ a img{
   }
 
     .navigation .mdl-navigation__link:hover {
-      border-bottom: 4px solid #8bc34a;
+      border-bottom: 4px solid #FFD740;
     }
 
   .search-box {
@@ -156,12 +156,12 @@ a img{
   }
 
   .drawer span.mdl-navigation__link.mdl-navigation__link {
-    color: #8bc34a;
+    color: #000000;
   }
 
   .drawer .mdl-layout-title {
     position: relative;
-    background: #FFD740;
+    background: #FFFFFF;
     height: 160px;
   }
 
@@ -329,11 +329,11 @@ a img{
 
 .link {
   text-decoration: none;
-  color: #8bc34a !important;
+    color: #757575 !important;
 }
 
   .link:hover {
-    color: #7cb342 !important;
+    color: #757575 !important;
   }
 
   .link .material-icons {
