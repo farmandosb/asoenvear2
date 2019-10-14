@@ -1,10 +1,14 @@
 {  
      "images":[
-"https://farmandosb.github.io/asoenvear/images/vader1.jpg",
-"https://farmandosb.github.io/asoenvear/images/vader1.jpg",
-"https://farmandosb.github.io/asoenvear/images/vader1.jpg",
-"https://farmandosb.github.io/asoenvear/images/vader1.jpg",
-"https://farmandosb.github.io/asoenvear/images/vader1.jpg"
+"https://farmandosb.github.io/asoenvear/images/image1.jpeg",
+"https://farmandosb.github.io/asoenvear/images/image2.jpg",
+"https://farmandosb.github.io/asoenvear/images/image3.jpg",
+"https://farmandosb.github.io/asoenvear/images/image4.jpg",
+"https://farmandosb.github.io/asoenvear/images/image5.png",
+"https://farmandosb.github.io/asoenvear/images/image6.jpg",
+"https://farmandosb.github.io/asoenvear/images/image7.jpg",
+"https://farmandosb.github.io/asoenvear/images/image8.png",
+"https://farmandosb.github.io/asoenvear/images/image9.jpg"
       ]
  
 }
