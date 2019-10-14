@@ -1,0 +1,13 @@
+{  
+     "gallery": {
+      "image1": "https://farmandosb.github.io/asoenvear/images/vader1.jpg",
+      "image2": "https://farmandosb.github.io/asoenvear/images/vader1.jpg",
+      "image3": "https://farmandosb.github.io/asoenvear/images/vader1.jpg",
+      "image4": "https://farmandosb.github.io/asoenvear/images/vader1.jpg",
+      "image5": "https://farmandosb.github.io/asoenvear/images/vader1.jpg",
+      "image6": "https://farmandosb.github.io/asoenvear/images/vader1.jpg",
+      "image7": "https://farmandosb.github.io/asoenvear/images/vader1.jpg",
+      "image8": "https://farmandosb.github.io/asoenvear/images/vader1.jpg"
+    }
+ 
+}
